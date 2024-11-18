@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(158,144,150,1) 0%, rgba(0,0,0,1) 80%);
+}
+.heading h1{
+    font-size: 3rem;
+    color: white;
+}
+.heading h1 span{
+    color: yellow;
+    text-decoration: underline;
+}
+.textboxes{
+    margin: 40px 0px;
+    text-align: center;
+}
+.textboxes .textbox{
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: gray;
+    color: white;
+    outline-color: lightseagreen;
+}
+.submit{
+    text-align: center;
+}
+.submit .btn_submit{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
